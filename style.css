@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .red-color {
     color: red;
 }
 
-section {
+.fexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -43,4 +47,36 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.color-third {
+    color: brown;
+}
+
+.items {
+    width: 40%;
+    margin-left: 5%;
+    margin-left: 5%;
+    padding-left: 16px;
+    box-shadow: 10px 10px 40px black;
+    border-radius: 10px;
+
+}
+
+#stack {
+    border-left: 7px solid rgb(14, 14, 0);
+}
+
+#baby {
+    border-left: 7px solid green;
+}
+
+.third {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+footer p {
+    text-align: center;
 }
